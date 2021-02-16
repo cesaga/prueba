@@ -10,24 +10,32 @@ import XCTest
 
 class PruebaTestTests: XCTestCase {
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    func testAddStuff() {
+        
+       let testAdd = MathStuff()
+        let result = testAdd.addNumbers(x: 6, y: 6)
+        XCTAssertEqual(result, 12)
     }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+    
+    func testSustractStuff() {
+        
+        let testAdd = MathStuff()
+        let result = testAdd.subtractNumbers(x: 6, y: 6)
+        XCTAssertEqual(result, 0)
     }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    
+    func testMultipleStuff() {
+        
+        let testAdd = MathStuff()
+        let result = testAdd.multipleNumbers(x: 6, y: 6)
+        XCTAssertEqual(result, 36)
     }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    
+    func testDivideStuff() {
+        
+        let testAdd = MathStuff()
+        let result = testAdd.divideNumbers(x: 6, y: 6)
+        XCTAssertEqual(result, 1)
     }
-
+    
 }

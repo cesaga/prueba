@@ -15,6 +15,7 @@
 		DB24D67425D1B63F004C19B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB24D67225D1B63F004C19B2 /* LaunchScreen.storyboard */; };
 		DB24D67F25D1B640004C19B2 /* PruebaTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB24D67E25D1B640004C19B2 /* PruebaTestTests.swift */; };
 		DB24D68A25D1B640004C19B2 /* PruebaTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB24D68925D1B640004C19B2 /* PruebaTestUITests.swift */; };
+		DB24D69B25D1B745004C19B2 /* MathStuff.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB24D69A25D1B745004C19B2 /* MathStuff.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		DB24D68525D1B640004C19B2 /* PruebaTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PruebaTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB24D68925D1B640004C19B2 /* PruebaTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PruebaTestUITests.swift; sourceTree = "<group>"; };
 		DB24D68B25D1B640004C19B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB24D69A25D1B745004C19B2 /* MathStuff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathStuff.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				DB24D67025D1B63F004C19B2 /* Assets.xcassets */,
 				DB24D67225D1B63F004C19B2 /* LaunchScreen.storyboard */,
 				DB24D67525D1B63F004C19B2 /* Info.plist */,
+				DB24D69A25D1B745004C19B2 /* MathStuff.swift */,
 			);
 			path = PruebaTest;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB24D69B25D1B745004C19B2 /* MathStuff.swift in Sources */,
 				DB24D66C25D1B63D004C19B2 /* ViewController.swift in Sources */,
 				DB24D66825D1B63D004C19B2 /* AppDelegate.swift in Sources */,
 				DB24D66A25D1B63D004C19B2 /* SceneDelegate.swift in Sources */,
